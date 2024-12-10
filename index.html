@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        nav{
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            font-size: 28px;
+            background-color: aquamarine;
+            padding: 20px;
+        }
+
+        h1{
+            color: red;
+            text-align: center;
+            font-size: 48px;
+            padding: 20px;
+        }
+
+        .servicio{
+            width: 30%;
+            text-align: center;
+            font-size: 36px;
+            font-style: italic;
+        }
+
+        .servicio img{
+            width: 40%;
+        }
+
+        #contenedor{
+            border: 2px solid red;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Quiénes somos</a>
+        <a href="#">Dónde estamos</a>
+        <a href="#">Contacto</a>
+        <a href="#nuestrosservicios">Nuestros Servicio</a>
+    </nav>
+    <section id="nuestrosservicios">
+        <h1>Nuestros Servicios</h1>
+
+        <div id="contenedor">
+        <article class="servicio">
+            <img src="images/asistencia.png" alt="">
+            <p>Servicio técnico</p>
+        </article>
+
+        <article class="servicio">
+            <img src="images/consultoría-1-300x215.jpg" alt="">
+            <p>Consultoría</p>
+        </article>
+
+        <article class="servicio">
+            <img src="images/mobile.png" alt="">
+            <p>Apps móviles</p>
+        </article>
+
+        <article class="servicio">
+            <img src="images/drone.jpg" alt="">
+            <p>Drones</p>
+        </article>
+
+        <article class="servicio">
+            <img src="images/web.jpeg" alt="">
+            <p>Diseño web</p>
+        </article>
+
+        <article class="servicio">
+            <img src="images/soluciones.jpg" alt="">
+            <p>Soluciones</p>
+        </article>
+        </div>
+
+    </section>
+</body>
+</html>
